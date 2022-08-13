@@ -324,3 +324,36 @@ _______________________
 
 ## Работа с удаленными репозиториями
 
+
+12. 
+* Команда:  **git remote add origin** *https://github.com/user1/repository_name.git*
+
+* что делает? *-  git remote устанавливает соединение с удаленным репозиторием* **(add)** *, добавляя его к отслеживаемым*
+
+
+* Пример:
+*PS C:\Users\User1\Desktop\GIT_EDUCATION\Lesson1 HomeWork> git remote add origin https://github.com/vvpog/2951.git*
+
+_________________________
+
+13. 
+* Команда:  **git push -u origin main**
+
+* что делает? *-  отправляет рабочий репозиторий по ссылке на __GitHub__, в репозиторий, с которым была выполнена синхронизация, в основную ветку __(main)__*:
+
+* Пример:
+*PS C:\Users\User1\Desktop\GIT_EDUCATION\Lesson1 HomeWork> git push -u origin main
+
+* Выполнение:
+*To https://github.com/vvpog/2951.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.*
+_________________________
+
+
+
+
+
+
+
+
