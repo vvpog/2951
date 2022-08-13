@@ -355,12 +355,27 @@ _________________________
 
 * что делает? *-  подтягивает в рабочий репозиторий на локальный компьютер репозиторий, размещенный в __GitHub__, по ранее настроенной ссылке, в основную ветку __(main)__*:
 
+* Комментарий: *"перетягивание" репозитория происходит с одновременным __(по умолчанию)__ выполнением команды **merge** __(слияние)__*
+
 * Пример:
 *PS C:\Users\User1\Desktop\GIT_EDUCATION\Lesson1 HomeWork> git pull
 
 * Выполнение:
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 843 bytes | 0 bytes/s, done.
+From https://github.com/vvpog/2951
+   1ada32b..7a5ea9c  main       -> origin/main
+Updating 1ada32b..7a5ea9c
+Fast-forward
+ instruction_hw1.md | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
 
 _________________________
+
+
 
 
 
